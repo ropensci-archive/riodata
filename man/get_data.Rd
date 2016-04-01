@@ -12,4 +12,8 @@ get_data(name)
 \description{
 Get the data from Rio de Janeiro
 }
+\examples{
+data <- get_data(name = "supervia")
+head(data)
+}
 

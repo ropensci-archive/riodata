@@ -1,11 +1,11 @@
 #'  Get the data from Rio de Janeiro
 #'
-#'  Get the data from Rio de Janeiro
+#'
 #' @param name Name of the transportation service
 #' @export
 #' @examples
-#' data <- get_data(name = "supervia"))
-#' head(data)
+#' data <- get_data(name = "supervia")
+#'
 get_data <- function(name){
     names_data <- c("pontosculturais", "metro", "brt", "supervia")
     url <- "http://dadosabertos.rio.rj.gov.br/"
