@@ -6,9 +6,11 @@
 
 ## How to use
 
+example:
+
      get_data("brt")
 
-Available Datasets: brt, supervia, pontosculturais, metro
+Available dataset names: "brt", "supervia", "pontosculturais", "metro"
 
 ## Example 
 
