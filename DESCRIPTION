@@ -5,9 +5,9 @@ Title: Get data related to transportation and cultural places from Rio de
 Version: 0.1.0
 Authors@R: c(
     person("Gabriela", "de Queiroz", email = "gabidequeiroz@gmail.com", role= c("aut", "cre")),
-    person("Erin", "LeDell", email = "erin@ledell.org", role = "aut"))
+    person("Erin", "LeDell", email = "erin@ledell.org", role = "aut")
+    person("Ciera", "Martinez", email = "ciera.martinez@gmail.com", role = "aut")
 URL: https://github.com/ropenscilabs/riodata
-#Maintainer: Gabriela de Queiroz <gabidequeiroz@gmail.com>
 Description: Get data related to transportation and cultural places from Rio de
     Janeiro, Brazil.
 License: MIT + file LICENSE

@@ -7,7 +7,7 @@
 #' data <- get_data(name = "supervia")
 #'
 get_data <- function(name = c("pontosculturais", "metro", "brt", "supervia")) {
-  
+
     name <- match.arg(name)
     url <- "http://dadosabertos.rio.rj.gov.br/"
     api_path <- "/api/v1/rest/"
@@ -25,10 +25,5 @@ get_data <- function(name = c("pontosculturais", "metro", "brt", "supervia")) {
     df <- do.call(rbind.data.frame, sreslist)
 }
 
-
-# df <- get_data(name = "pontosculturais")
-# df1 <- get_data(name = "metro")
-# View(get_data(name = "brt"))
-# View(get_data(name = "supervia"))
 
 
