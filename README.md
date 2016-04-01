@@ -57,7 +57,7 @@ Available dataset names: "brt", "supervia", "pontosculturais", "metro"
                     lon = c(-74.015794,-74.012318,-73.998284),
                     lwd=1.5,col=c('red', 'blue', 'green'), FUN = lines, add=TRUE)
 
-[img](./img/mapExample.png)
+![img](./img/mapExample.png)
 
 ## Install
 
